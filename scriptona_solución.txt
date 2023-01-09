@@ -1,57 +1,30 @@
-cd Desktop/
-
-mkdir proyecto_final
-
-cd proyecto_final
-
-git clone https://github.com/WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-tiobronco.git
-
-ls
-
-cd proyecto_final_pre-camp_wbds_la-tiobronco/
-
-./welcome.sh
-
-ls
-
-cd paso_2
-
-ls
-
-cat instrucciones.txt
-
-cd ../
-
-cd paso_5
-
-cat instrucciones.txt
-
-cd ../
-
-cd paso_10
-
-cat instrucciones.txt
-
-curl https://www.gnu.org/licenses/gpl-3.0.txt -o licencia.txt -k
-
-ls
-
-grep -io "freedom" licencia.txt
-
-grep -io "freedom" licencia.txt | wc -l
-
-cd ../
-
-cd paso_9
-
-cat instrucciones.txt
-
-ls
-
-cat *.md > posta_final.txt
-
-ls
-
-cat posta_final.txt
+$ cd Desktop/
+$ mkdir proyecto_final
+$ cd proyecto_final
+$ git clone https://github.com/WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-tiobronco.git
+$ ls
+$ cd proyecto_final_pre-camp_wbds_la-tiobronco/
+$ ./welcome.sh
+$ ls
+$ cd paso_2
+$ ls
+$ cat instrucciones.txt
+$ cd ../
+$ cd paso_5
+$ cat instrucciones.txt
+$ cd ../
+$ cd paso_10
+$ cat instrucciones.txt
+$ curl https://www.gnu.org/licenses/gpl-3.0.txt -o licencia.txt -k
+$ ls
+$ grep -io "freedom" licencia.txt
+$ grep -io "freedom" licencia.txt | wc -l
+$ cd ../
+$ cd paso_9
+$ cat instrucciones.txt
+$ ls
+$ cat *.md > posta_final.txt
+$ ls
+$ cat posta_final.txt
 
 FRASE: “La libertad se aprende ejerciéndola” Clara Campoamor
